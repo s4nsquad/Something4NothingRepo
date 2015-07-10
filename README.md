@@ -14,6 +14,3 @@ UI Router helpful sites:
 Sample site using UI-Router:: http://angular-ui.github.io/ui-router/sample/
 Github project (Checkout the Readme.md):: https://github.com/angular-ui/ui-router#get-started
 https://scotch.io/tutorials/angular-routing-using-ui-router
-
-
-
