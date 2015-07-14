@@ -16,6 +16,5 @@ Github project (Checkout the Readme.md):: https://github.com/angular-ui/ui-route
 https://scotch.io/tutorials/angular-routing-using-ui-router
 
 
-Dividing Equity 
-http://www.forbes.com/sites/groupthink/2013/05/22/how-to-split-equity-among-founders/
-http://falaw.us/How%20to%20Divide%20Equity%20Among%20Startup%20Founders.pdf
+
+
