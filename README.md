@@ -17,4 +17,7 @@ https://scotch.io/tutorials/angular-routing-using-ui-router
 
 
 
-
+Dividing Equity
+http://www.forbes.com/sites/greggfairbrothers/2013/05/06/who-is-a-founder/
+http://falaw.us/How%20to%20Divide%20Equity%20Among%20Startup%20Founders.pdf
+http://www.forbes.com/sites/groupthink/2013/05/22/how-to-split-equity-among-founders/
