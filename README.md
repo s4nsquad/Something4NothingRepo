@@ -9,6 +9,14 @@ https://nodejs.org/
 http://ternjs.net/doc/demo.html
 
 
+Mockups 
+UserID: Same as S4N email
+PWD: Same as S4N password
+
+Link here: https://www.gliffy.com/go/html5/8602367?app=1b5094b0-6042-11e2-bcfd-0800200c9a66
+
+
+
 
 UI Router helpful sites:
 Sample site using UI-Router:: http://angular-ui.github.io/ui-router/sample/
