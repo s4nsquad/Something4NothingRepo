@@ -13,6 +13,11 @@ Mockups
 UserID: Same as S4N email
 PWD: Same as S4N password
 
+/*status
+All pages are in place. Winners, contact, about us, FAQ, and advertisment pages content needs work
+*/
+
+
 Link here: https://www.gliffy.com/go/html5/8602367?app=1b5094b0-6042-11e2-bcfd-0800200c9a66
 
 
