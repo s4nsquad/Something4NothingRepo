@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 <head>
 <meta charset="UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript"src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
 <title>Insert title here</title>
 </head>
 <body>
 
+
+<script>
+Parse.initialize("7atr1soKSmWDmmPpiFBzROk7EvE5GTb6rO1RTfw4", "vxcV6LhfZpqD3jWZACniX9SajbFzOGyj3wfayF64");
+var TestObject = Parse.Object.extend("TestObject");
+var testObject = new TestObject();
+	testObject.save({foo: "bar"}).then(function(object) {
+	  alert("yay! it worked");
+	});
+</script>
 </body>
 </html>
