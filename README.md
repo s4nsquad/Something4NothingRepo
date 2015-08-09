@@ -7,6 +7,7 @@ http://www.w3schools.com/angular/angular_intro.asp
 http://blog.diniscruz.com/2014/02/using-angularjs-in-eclipse-part-1.html
 https://nodejs.org/
 http://ternjs.net/doc/demo.html
+https://scotch.io/tutorials/angularjs-best-practices-directory-structure
 
 
 Mockups 
