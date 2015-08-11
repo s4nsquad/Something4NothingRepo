@@ -10,27 +10,27 @@ something4Nothing.config(function($stateProvider, $urlRouterProvider){
             url: "/home",
             templateUrl: "/MenuTemplateHeader.html"
           })
-          .state("aboutus", {
+          .state("home.aboutus", {
           url: "/aboutus",
           templateUrl: "Views/AboutUs.html"
         })
-        .state("advertisers", {
+        .state("home.advertisers", {
           url: "/advertisers",
           trmplateUrl: "Views/Advertisers.html"
         })
-        .state("contactus", {
+        .state("home.contactus", {
           url: "/contactus",
           trmplateUrl: "Views/ContactUs.html"
         })
-        .state("createnewaccount", {
+        .state("home.createnewaccount", {
           url: "/createnewaccount",
           trmplateUrl: "Views/CreateNewAccount.html"
         })
-        .state("faq", {
+        .state("home.faq", {
           url: "/faq",
           trmplateUrl: "Views/Faq.html"
         })
-        .state("winners", {
+        .state("home.winners", {
           url: "/winners",
           trmplateUrl: "Views/Winners.html"
         });
