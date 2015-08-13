@@ -6,32 +6,38 @@ something4Nothing.config(function($stateProvider, $urlRouterProvider){
 
   //state setup
   $stateProvider
-          .state("home", {
+          .state("Main", {//serves as a parent to it’s child states to offer shared functionality.
             url: "/home",
-            templateUrl: "/MenuTemplateHeader.html"
+            templateUrl: "Views/Home.html"
           })
-          .state("home.aboutus", {
-          url: "/aboutus",
+
+         .state("aboutus", {
+          url:"/aboutus",
           templateUrl: "Views/AboutUs.html"
         })
-        .state("home.advertisers", {
+
+        .state("advertisers", {
           url: "/advertisers",
-          trmplateUrl: "Views/Advertisers.html"
+          templateUrl: "Views/Advertisers.html"
         })
-        .state("home.contactus", {
+
+        .state("contactus", {
           url: "/contactus",
-          trmplateUrl: "Views/ContactUs.html"
+          templateUrl: "Views/ContactUs.html"
         })
-        .state("home.createnewaccount", {
+
+        .state("createnewaccount", {
           url: "/createnewaccount",
-          trmplateUrl: "Views/CreateNewAccount.html"
+          templateUrl: "Views/CreateNewAccount.html"
         })
-        .state("home.faq", {
-          url: "/faq",
-          trmplateUrl: "Views/Faq.html"
+
+        .state("faq", {
+          url:"/faq",
+          templateUrl: "Views/Faq.html"
         })
-        .state("home.winners", {
+
+        .state("winners", {
           url: "/winners",
-          trmplateUrl: "Views/Winners.html"
+           templateUrl: "Views/Winners.html"
         });
 });
