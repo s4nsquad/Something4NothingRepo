@@ -12,14 +12,14 @@
   <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js" async></script>
   <script src="./app/Js/Router.js" async></script>
 </head>
-<body >
-
+<body ng-app="something4Nothing">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Logo Goes Here</a>
     </div>
     <div>
+      <div ui-view></div>
       <ul class="nav navbar-nav">
         <li class="active"><a ui-sref="Main">Home</a></li>
         <li><a ui-sref="contactus">Contact Us</a></li>
@@ -38,13 +38,6 @@
 
 
 <div ui-view></div>
-
-
-<<<<<<< Updated upstream:S4NClient/WebContent/MenuTemplateHeader.html
-
-=======
-
-
 
 <div class="container">
   <div class="jumbotron">
@@ -81,8 +74,6 @@
     <div class="clearfix visible-lg"></div>
   </div>
 </div>
->>>>>>> Stashed changes:S4NClient/MenuTemplateHeader.html
-
 
 <a class="icon facebook" href="#"><span class="zocial-facebook"></span></a>
 <a class="icon twitter" href="https://twitter.com/"><span class="zocial-twitter"></span></a>
