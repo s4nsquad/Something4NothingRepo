@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="something4Nothing" lang="en">
+<html lang="en">
 <head>
   <title>Something 4 Nothing</title>
   <meta charset="UTF-8">
@@ -19,7 +19,6 @@
       <a class="navbar-brand" href="#">Logo Goes Here</a>
     </div>
     <div>
-      <div ui-view></div>
       <ul class="nav navbar-nav">
         <li class="active"><a ui-sref="Main">Home</a></li>
         <li><a ui-sref="contactus">Contact Us</a></li>
@@ -37,9 +36,8 @@
 </nav>
 
 
-<div ui-view></div>
-
 <div class="container">
+<div ui-view>
   <div class="jumbotron">
     <h1>My first Bootstrap website!</h1>
     <p>This page will grow as we add more and more components from Bootstrap...</p>
@@ -73,6 +71,7 @@
     </div>
     <div class="clearfix visible-lg"></div>
   </div>
+</div>
 </div>
 
 <a class="icon facebook" href="#"><span class="zocial-facebook"></span></a>
