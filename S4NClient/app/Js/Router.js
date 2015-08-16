@@ -8,7 +8,7 @@ something4Nothing.config(function($stateProvider, $urlRouterProvider){
   $stateProvider
           .state("Main", {//serves as a parent to it’s child states to offer shared functionality.
             url: "/home",
-            templateUrl: "Views/Home.html"
+            //templateUrl: "Views/Home.html"
           })
 
          .state("aboutus", {
